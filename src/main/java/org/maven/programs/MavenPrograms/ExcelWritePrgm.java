@@ -20,19 +20,19 @@ public class ExcelWritePrgm {
 
 		Row row = sheet.createRow(4);
 		Cell cell = row.createCell(0);
-		cell.setCellType(cell.CELL_TYPE_STRING);
+		cell.setCellType(Cell.CELL_TYPE_STRING);
 		cell.setCellValue("Krishna");
 
 		Cell cell2 = row.createCell(1);
-		cell2.setCellType(cell2.CELL_TYPE_NUMERIC);
+		cell2.setCellType(Cell.CELL_TYPE_NUMERIC);
 		cell2.setCellValue("9898986565");
 
 		Cell cell3 = row.createCell(2);
-		cell3.setCellType(cell.CELL_TYPE_STRING);
+		cell3.setCellType(Cell.CELL_TYPE_STRING);
 		cell3.setCellValue("sdf@gmail.com");
 
 		Cell cell4 = row.createCell(3);
-		cell4.setCellType(cell2.CELL_TYPE_NUMERIC);
+		cell4.setCellType(Cell.CELL_TYPE_NUMERIC);
 		cell4.setCellValue("55000");
 
 		FileOutputStream outStream = new FileOutputStream("D:\\Users\\Admin\\Desktop\\abcd.xlsx");
